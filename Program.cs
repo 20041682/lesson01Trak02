@@ -4,7 +4,7 @@ int b = 6;
 int c = 158;
 int max = a;
 {
-    if (b > max ) b = max;
-    if (c > max ) c = max;
+    if (b > max ) max = b;
+    if (c > max ) max = c;
 }
  Console.WriteLine (max);
